@@ -1,0 +1,345 @@
+ /* Стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right bottom, #000, #111, #222, #333, #444); 
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-content {
+    padding: 40px 0;
+}
+#about {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.profile-photo {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+#about-me {
+    flex-grow: 1; 
+}
+#about-me h2 {
+    color: #ff8000; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#about-me p {
+    color: #fff; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.profile-photo {
+    flex-shrink: 0; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#about-me {
+    flex-grow: 1; /* Данный сайт собственность Мальцева Дмитрия */
+    padding-left: 20px; 
+}.
+
+btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8000; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cc5500; 
+    cursor: pointer;
+}
+
+
+
+.profile-photo {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    transition: transform 0.3s ease; 
+}
+
+.profile-photo:hover {
+    transform: scale(1.2); 
+}
+
+
+#about-me {
+    background-color: rgba(255, 165, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8000; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cc5500; 
+    cursor: pointer;
+}
+
+
+#about-me h2 {
+    color: #ff8000; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#about-me p {
+    color: #fff; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#about-me:hover {
+    background-color: rgba(255, 165, 0, 0.2); 
+    transform: scale(1.01); 
+    transition: all 0.3s ease;
+}
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-icon {
+    background-color: rgba(0, 0, 0, 0.75); 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skill-icon:hover {
+    background-color: rgba(255, 128, 0, 0.25); 
+}
+
+.skill-icon i.fa {
+    font-size: 36px;
+    color: #ff8000; 
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.skill-item {
+    font-size: 14px;
+    color: #aaa; 
+}
+
+.checkmark {
+    color: #ff8000; 
+    font-weight: bold;
+}
+
+.contact ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contact ul li strong {
+    color: #ff8000; 
+}
+
+
+
+ body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('photo_2025-03-11_18-31-16.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+header {
+    background-color: transparent; 
+    padding: 15px 0;
+    position: relative;
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+nav {
+    position: fixed;
+     top: 0;
+    left: 0;
+    width: 100%;
+    }
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: transparent; 
+}
+
+nav ul li a:hover {
+    background-color: #ff8000; 
+    color: #000; 
+    border-color: #ff8000; 
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px; 
+}
+
+.profile {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.skill-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-icon i.fa {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.skills h3 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills .checkmark {
+    color: green;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+
+    .profile-photo {
+        margin: 0 auto 20px; 
+    }
+
+    #about-me {
+        padding-left: 0; 
+    }
+}
